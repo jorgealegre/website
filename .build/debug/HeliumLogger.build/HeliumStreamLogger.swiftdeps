@@ -1,0 +1,151 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HeliumStreamLogger"
+provides-nominal:
+- "C12HeliumLogger18HeliumStreamLogger"
+provides-member:
+- ["C12HeliumLogger18HeliumStreamLogger", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+"
+- "AssignmentPrecedence"
+- "HeliumLogger"
+- "HeliumStreamLogger"
+- !private "Log"
+- "LoggerMessageType"
+- "String"
+- !private "StringLiteralType"
+- "TextOutputStream"
+- !private "print"
+depends-member:
+- !private ["Ps9AnyObject", "HeliumStreamLogger"]
+- !private ["Ps9AnyObject", "Log"]
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "logger"]
+- !private ["Ps9AnyObject", "outputStream"]
+- !private ["Ps9AnyObject", "print"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "verbose"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "verbose"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "verbose"]
+- !private ["C12HeliumLogger12HeliumLogger", "HeliumStreamLogger"]
+- !private ["C12HeliumLogger12HeliumLogger", "Log"]
+- ["C12HeliumLogger12HeliumLogger", "LoggerMessageType"]
+- ["C12HeliumLogger12HeliumLogger", "OutputStream"]
+- ["C12HeliumLogger12HeliumLogger", "String"]
+- ["C12HeliumLogger12HeliumLogger", "doPrint"]
+- ["C12HeliumLogger12HeliumLogger", "init"]
+- ["C12HeliumLogger12HeliumLogger", "outputStream"]
+- !private ["C12HeliumLogger12HeliumLogger", "print"]
+- ["C12HeliumLogger12HeliumLogger", "use"]
+- ["C12HeliumLogger12HeliumLogger", ""]
+- !private ["C12HeliumLogger18HeliumStreamLogger", "HeliumStreamLogger"]
+- !private ["C12HeliumLogger18HeliumStreamLogger", "Log"]
+- ["C12HeliumLogger18HeliumStreamLogger", "LoggerMessageType"]
+- ["C12HeliumLogger18HeliumStreamLogger", "OutputStream"]
+- ["C12HeliumLogger18HeliumStreamLogger", "String"]
+- ["C12HeliumLogger18HeliumStreamLogger", "deinit"]
+- ["C12HeliumLogger18HeliumStreamLogger", "doPrint"]
+- ["C12HeliumLogger18HeliumStreamLogger", "init"]
+- !private ["C12HeliumLogger18HeliumStreamLogger", "outputStream"]
+- !private ["C12HeliumLogger18HeliumStreamLogger", "print"]
+- ["C12HeliumLogger18HeliumStreamLogger", "use"]
+- !private ["C9LoggerAPI3Log", "logger"]
+- !private ["P9LoggerAPI6Logger", "HeliumStreamLogger"]
+- !private ["P9LoggerAPI6Logger", "Log"]
+- !private ["P9LoggerAPI6Logger", "init"]
+- !private ["P9LoggerAPI6Logger", "outputStream"]
+- !private ["P9LoggerAPI6Logger", "print"]
+- ["P9LoggerAPI6Logger", ""]
+- !private ["O9LoggerAPI17LoggerMessageType", "verbose"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- !private ["Ps16RawRepresentable", "verbose"]
+- !private ["Vs12StaticString", "init"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "verbose"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Ps7CVarArg"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps8Hashable"
+- "C12HeliumLogger12HeliumLogger"
+- "C12HeliumLogger18HeliumStreamLogger"
+- !private "C9LoggerAPI3Log"
+- "P9LoggerAPI6Logger"
+- !private "O9LoggerAPI17LoggerMessageType"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Ps16RawRepresentable"
+- !private "Vs12StaticString"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/george/Developer/website/.build/debug/LoggerAPI.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/george/Developer/website/.build/checkouts/CommonCrypto.git-1219305460334093717/module.modulemap"
+- "/Users/george/Developer/website/.build/debug/CHTTPParser.build/module.modulemap"
+interface-hash: "da5a7ad5022849f7505abead272a6a52"

@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "7f0a63d22d95b042d0b28a73a79eb8e4"
+build_time: [556969269, 243243000]
+inputs:
+  "/Users/george/Developer/website/.build/checkouts/Kitura-StencilTemplateEngine.git--2176492381134715142/Sources/KituraStencilTemplateEngine.swift": [556969255, 0]

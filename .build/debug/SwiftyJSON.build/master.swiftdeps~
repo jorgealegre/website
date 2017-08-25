@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "57510fd40529d2b7ca9f1e0533a1e5e9"
+build_time: [556037809, 236493000]
+inputs:
+  "/Users/george/Developer/website/.build/checkouts/SwiftyJSON.git--6955445084174387031/Source/LclJSONSerialization.swift": [556037802, 0]
+  "/Users/george/Developer/website/.build/checkouts/SwiftyJSON.git--6955445084174387031/Source/SwiftyJSON.swift": [556037802, 0]

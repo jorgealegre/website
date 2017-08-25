@@ -1,0 +1,20 @@
+{% extends "layouts/main.stencil" %}
+
+{% block head %}
+    <title>WebSocket Test</title>
+    <script async src="/static/scripts/game.js"></script>
+    <link rel="stylesheet" href="/static/stylesheets/game.css"/>
+{% endblock %}
+
+
+{% block content %}
+    <h1>La Guerra Funcional</h1>
+
+    <div id="output"></div>
+
+    <div>
+        <input type="text" id="message" autofocus/>
+    </div>
+
+    <button onClick="websocket.close()">Close connection</button>
+{% endblock %}

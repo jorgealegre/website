@@ -1,0 +1,14 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "141685f341b00bddc20295ac4d7fcb88"
+build_time: [556037809, 237572000]
+inputs:
+  "/Users/george/Developer/website/.build/checkouts/BlueCryptor.git-2709167748876642405/Sources/Crypto.swift": [556037801, 0]
+  "/Users/george/Developer/website/.build/checkouts/BlueCryptor.git-2709167748876642405/Sources/Cryptor.swift": [556037801, 0]
+  "/Users/george/Developer/website/.build/checkouts/BlueCryptor.git-2709167748876642405/Sources/Digest.swift": [556037801, 0]
+  "/Users/george/Developer/website/.build/checkouts/BlueCryptor.git-2709167748876642405/Sources/HMAC.swift": [556037801, 0]
+  "/Users/george/Developer/website/.build/checkouts/BlueCryptor.git-2709167748876642405/Sources/KeyDerivation.swift": [556037801, 0]
+  "/Users/george/Developer/website/.build/checkouts/BlueCryptor.git-2709167748876642405/Sources/Random.swift": [556037801, 0]
+  "/Users/george/Developer/website/.build/checkouts/BlueCryptor.git-2709167748876642405/Sources/Status.swift": [556037801, 0]
+  "/Users/george/Developer/website/.build/checkouts/BlueCryptor.git-2709167748876642405/Sources/StreamCryptor.swift": [556037801, 0]
+  "/Users/george/Developer/website/.build/checkouts/BlueCryptor.git-2709167748876642405/Sources/Updatable.swift": [556037801, 0]
+  "/Users/george/Developer/website/.build/checkouts/BlueCryptor.git-2709167748876642405/Sources/Utilities.swift": [556037801, 0]

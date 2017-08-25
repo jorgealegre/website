@@ -1,0 +1,262 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "JavascriptEscapeHelper"
+provides-nominal:
+- "C8Mustache22JavascriptEscapeHelper"
+provides-member:
+- ["C8Mustache22JavascriptEscapeHelper", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+="
+- !private "Box"
+- !private "Character"
+- !private "ExtendedGraphemeClusterType"
+- !private "Filter"
+- "JavascriptEscapeHelper"
+- "MustacheBox"
+- "MustacheBoxable"
+- !private "Rendering"
+- !private "RenderingInfo"
+- !private "String"
+- !private "StringLiteralType"
+- !private "Tag"
+- !private "UnicodeScalarType"
+depends-member:
+- !private ["Ps9AnyObject", "Box"]
+- !private ["Ps9AnyObject", "Filter"]
+- !private ["Ps9AnyObject", "JavascriptEscapeHelper"]
+- !private ["Ps9AnyObject", "MustacheBox"]
+- !private ["Ps9AnyObject", "Rendering"]
+- !private ["Ps9AnyObject", "append"]
+- !private ["Ps9AnyObject", "characters"]
+- !private ["Ps9AnyObject", "escape"]
+- !private ["Ps9AnyObject", "filter"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "mustacheBox"]
+- !private ["Ps9AnyObject", "render"]
+- !private ["Ps9AnyObject", "willRender"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps7CVarArg", "append"]
+- !private ["Ps7CVarArg", "characters"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "render"]
+- !private ["Ps7CVarArg", "subscript"]
+- !private ["Vs9Character", "init"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "append"]
+- !private ["Ps10Comparable", "characters"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "append"]
+- !private ["Ps28CustomDebugStringConvertible", "characters"]
+- !private ["Ps28CustomDebugStringConvertible", "contentType"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "render"]
+- !private ["Ps28CustomDebugStringConvertible", "string"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "append"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "characters"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "append"]
+- !private ["Ps17CustomReflectable", "characters"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "append"]
+- !private ["Ps23CustomStringConvertible", "characters"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "render"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- !private ["Ps23CustomStringConvertible", "type"]
+- !private ["Vs10Dictionary", "subscript"]
+- !private ["Ps9Equatable", "Section"]
+- !private ["Ps9Equatable", "Variable"]
+- !private ["Ps9Equatable", "append"]
+- !private ["Ps9Equatable", "characters"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "render"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "append"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "characters"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "append"]
+- !private ["Ps26ExpressibleByStringLiteral", "characters"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "append"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "characters"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps8Hashable", "Section"]
+- !private ["Ps8Hashable", "Variable"]
+- !private ["Ps8Hashable", "append"]
+- !private ["Ps8Hashable", "characters"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "render"]
+- !private ["C8Mustache22JavascriptEscapeHelper", "Box"]
+- !private ["C8Mustache22JavascriptEscapeHelper", "Character"]
+- !private ["C8Mustache22JavascriptEscapeHelper", "Filter"]
+- !private ["C8Mustache22JavascriptEscapeHelper", "JavascriptEscapeHelper"]
+- ["C8Mustache22JavascriptEscapeHelper", "MustacheBox"]
+- !private ["C8Mustache22JavascriptEscapeHelper", "Rendering"]
+- !private ["C8Mustache22JavascriptEscapeHelper", "RenderingInfo"]
+- !private ["C8Mustache22JavascriptEscapeHelper", "String"]
+- !private ["C8Mustache22JavascriptEscapeHelper", "Tag"]
+- ["C8Mustache22JavascriptEscapeHelper", "deinit"]
+- !private ["C8Mustache22JavascriptEscapeHelper", "escape"]
+- !private ["C8Mustache22JavascriptEscapeHelper", "filter"]
+- ["C8Mustache22JavascriptEscapeHelper", "init"]
+- ["C8Mustache22JavascriptEscapeHelper", "mustacheBox"]
+- !private ["C8Mustache22JavascriptEscapeHelper", "willRender"]
+- !private ["Ps25LosslessStringConvertible", "append"]
+- !private ["Ps25LosslessStringConvertible", "characters"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "append"]
+- !private ["Ps10MirrorPath", "characters"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["C8Mustache11MustacheBox", "init"]
+- !private ["C8Mustache11MustacheBox", "render"]
+- !private ["P8Mustache15MustacheBoxable", "Box"]
+- !private ["P8Mustache15MustacheBoxable", "Filter"]
+- !private ["P8Mustache15MustacheBoxable", "JavascriptEscapeHelper"]
+- !private ["P8Mustache15MustacheBoxable", "MustacheBox"]
+- !private ["P8Mustache15MustacheBoxable", "Rendering"]
+- !private ["P8Mustache15MustacheBoxable", "append"]
+- !private ["P8Mustache15MustacheBoxable", "characters"]
+- !private ["P8Mustache15MustacheBoxable", "escape"]
+- !private ["P8Mustache15MustacheBoxable", "filter"]
+- !private ["P8Mustache15MustacheBoxable", "init"]
+- ["P8Mustache15MustacheBoxable", "mustacheBox"]
+- !private ["P8Mustache15MustacheBoxable", "render"]
+- !private ["P8Mustache15MustacheBoxable", "subscript"]
+- !private ["P8Mustache15MustacheBoxable", "willRender"]
+- ["P8Mustache15MustacheBoxable", ""]
+- !private ["PSo8NSCoding", "append"]
+- !private ["PSo8NSCoding", "characters"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo9NSCopying", "append"]
+- !private ["PSo9NSCopying", "characters"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo16NSMutableCopying", "append"]
+- !private ["PSo16NSMutableCopying", "characters"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "append"]
+- !private ["CSo8NSObject", "characters"]
+- !private ["CSo8NSObject", "render"]
+- !private ["PSo16NSObjectProtocol", "append"]
+- !private ["PSo16NSObjectProtocol", "characters"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "render"]
+- !private ["PSo14NSSecureCoding", "append"]
+- !private ["PSo14NSSecureCoding", "characters"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "append"]
+- !private ["CSo8NSString", "characters"]
+- !private ["CSo8NSString", "init"]
+- !private ["V8Mustache9Rendering", "contentType"]
+- !private ["V8Mustache9Rendering", "init"]
+- !private ["V8Mustache9Rendering", "string"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["SS", "append"]
+- !private ["SS", "characters"]
+- !private ["SS", "init"]
+- !private ["P8Mustache3Tag", "type"]
+- !private ["O8Mustache7TagType", "Section"]
+- !private ["O8Mustache7TagType", "Variable"]
+- !private ["Ps16TextOutputStream", "append"]
+- !private ["Ps16TextOutputStream", "characters"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "append"]
+- !private ["Ps20TextOutputStreamable", "characters"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "append"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "characters"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "append"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "characters"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "append"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "characters"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "append"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "characters"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "append"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "characters"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "append"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "characters"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "Section"]
+- !private ["Ps9_Hashable", "Variable"]
+- !private ["Ps9_Hashable", "append"]
+- !private ["Ps9_Hashable", "characters"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "render"]
+- !private ["Ps10_Indexable", "subscript"]
+- !private ["Ps14_IndexableBase", "subscript"]
+- !private ["Ps21_ObjectiveCBridgeable", "append"]
+- !private ["Ps21_ObjectiveCBridgeable", "characters"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Ps7CVarArg"
+- !private "Vs9Character"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Vs10Dictionary"
+- !private "Ps9Equatable"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps8Hashable"
+- "C8Mustache22JavascriptEscapeHelper"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "C8Mustache11MustacheBox"
+- "P8Mustache15MustacheBoxable"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "V8Mustache9Rendering"
+- !private "Ps8Sequence"
+- !private "SS"
+- !private "P8Mustache3Tag"
+- !private "O8Mustache7TagType"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/george/Developer/website/.build/debug/Bridging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/george/Developer/website/.build/checkouts/CommonCrypto.git-1219305460334093717/module.modulemap"
+- "/Users/george/Developer/website/.build/debug/CHTTPParser.build/module.modulemap"
+interface-hash: "22ec5137aa1294d452e6106ac540089d"

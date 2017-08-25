@@ -1,0 +1,6 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "b1a5d47c59081912cb2c8df7f512b49d"
+build_time: [556969263, 574232000]
+inputs:
+  "/Users/george/Developer/website/.build/checkouts/HeliumLogger.git-2106793442615829935/Sources/HeliumLogger/HeliumLogger.swift": [556037797, 0]
+  "/Users/george/Developer/website/.build/checkouts/HeliumLogger.git-2106793442615829935/Sources/HeliumLogger/HeliumStreamLogger.swift": [556037797, 0]

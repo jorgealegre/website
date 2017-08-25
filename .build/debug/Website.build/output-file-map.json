@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/george/Developer/website/.build/debug/Website.build/master.swiftdeps"
+  },
+  "/Users/george/Developer/website/Sources/Website/GameService.swift": {
+    "dependencies": "/Users/george/Developer/website/.build/debug/Website.build/GameService.d",
+    "object": "/Users/george/Developer/website/.build/debug/Website.build/GameService.swift.o",
+    "swiftmodule": "/Users/george/Developer/website/.build/debug/Website.build/GameService~partial.swiftmodule",
+    "swift-dependencies": "/Users/george/Developer/website/.build/debug/Website.build/GameService.swiftdeps"
+  },
+  "/Users/george/Developer/website/Sources/Website/main.swift": {
+    "dependencies": "/Users/george/Developer/website/.build/debug/Website.build/main.d",
+    "object": "/Users/george/Developer/website/.build/debug/Website.build/main.swift.o",
+    "swiftmodule": "/Users/george/Developer/website/.build/debug/Website.build/main~partial.swiftmodule",
+    "swift-dependencies": "/Users/george/Developer/website/.build/debug/Website.build/main.swiftdeps"
+  }
+}

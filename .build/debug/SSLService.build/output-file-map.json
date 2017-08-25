@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/george/Developer/website/.build/debug/SSLService.build/master.swiftdeps"
+  },
+  "/Users/george/Developer/website/.build/checkouts/BlueSSLService.git--6577639804771281610/Sources/SSLService.swift": {
+    "dependencies": "/Users/george/Developer/website/.build/debug/SSLService.build/SSLService.d",
+    "object": "/Users/george/Developer/website/.build/debug/SSLService.build/SSLService.swift.o",
+    "swiftmodule": "/Users/george/Developer/website/.build/debug/SSLService.build/SSLService~partial.swiftmodule",
+    "swift-dependencies": "/Users/george/Developer/website/.build/debug/SSLService.build/SSLService.swiftdeps"
+  }
+}

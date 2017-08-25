@@ -1,0 +1,5 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "af8a10db93b9843d433fcf088059bd47"
+build_time: [556969264, 871287000]
+inputs:
+  "/Users/george/Developer/website/.build/checkouts/PathKit.git--1865447967743163058/Sources/PathKit.swift": [556969255, 0]

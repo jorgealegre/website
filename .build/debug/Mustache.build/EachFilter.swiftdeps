@@ -1,0 +1,283 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "EachFilter"
+provides-nominal:
+provides-member:
+provides-dynamic-lookup:
+depends-top-level:
+- "%"
+- "+"
+- "-"
+- "=="
+- "AssignmentPrecedence"
+- "Box"
+- "EachFilter"
+- "Filter"
+- "Int"
+- "MustacheBox"
+- "MustacheError"
+- "RenderFunction"
+- "String"
+- "StringLiteralType"
+depends-member:
+- ["Ps9AnyObject", "arrayValue"]
+- ["Ps9AnyObject", "dictionaryValue"]
+- ["Ps9AnyObject", "extendedContext"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "isEmpty"]
+- ["Ps9AnyObject", "render"]
+- ["Ps9AnyObject", "value"]
+- ["Sa", "count"]
+- ["Sa", "enumerated"]
+- ["Ps23BidirectionalCollection", "count"]
+- ["Ps23BidirectionalCollection", "enumerated"]
+- ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- ["Ps7CVarArg", "arrayValue"]
+- ["Ps7CVarArg", "count"]
+- ["Ps7CVarArg", "dictionaryValue"]
+- ["Ps7CVarArg", "enumerated"]
+- ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "isEmpty"]
+- ["Ps7CVarArg", "render"]
+- ["Ps7CVarArg", "subscript"]
+- ["Ps7CVarArg", "value"]
+- ["Ps10Collection", "count"]
+- ["Ps10Collection", "enumerated"]
+- ["Ps10Collection", "subscript"]
+- ["Ps10Comparable", "init"]
+- ["C8Mustache7Context", "extendedContext"]
+- ["Ps28CustomDebugStringConvertible", "arrayValue"]
+- ["Ps28CustomDebugStringConvertible", "count"]
+- ["Ps28CustomDebugStringConvertible", "dictionaryValue"]
+- ["Ps28CustomDebugStringConvertible", "enumerated"]
+- ["Ps28CustomDebugStringConvertible", "extendedContext"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "isEmpty"]
+- ["Ps28CustomDebugStringConvertible", "render"]
+- ["Ps28CustomDebugStringConvertible", "subscript"]
+- ["Ps28CustomDebugStringConvertible", "value"]
+- ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- ["Ps17CustomReflectable", "count"]
+- ["Ps17CustomReflectable", "enumerated"]
+- ["Ps17CustomReflectable", "init"]
+- ["Ps17CustomReflectable", "subscript"]
+- ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps23CustomStringConvertible", "arrayValue"]
+- ["Ps23CustomStringConvertible", "count"]
+- ["Ps23CustomStringConvertible", "dictionaryValue"]
+- ["Ps23CustomStringConvertible", "enumerated"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "isEmpty"]
+- ["Ps23CustomStringConvertible", "render"]
+- ["Ps23CustomStringConvertible", "subscript"]
+- ["Ps23CustomStringConvertible", "value"]
+- ["Vs10Dictionary", "count"]
+- ["Vs10Dictionary", "deinit"]
+- ["Vs10Dictionary", "enumerated"]
+- ["Vs10Dictionary", "subscript"]
+- ["Vs18EnumeratedSequence", "map"]
+- ["Ps9Equatable", "RenderError"]
+- ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "arrayValue"]
+- ["Ps9Equatable", "dictionaryValue"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "isEmpty"]
+- ["Ps9Equatable", "render"]
+- ["Ps9Equatable", "value"]
+- ["Ps5Error", "init"]
+- ["Ps25ExpressibleByArrayLiteral", "count"]
+- ["Ps25ExpressibleByArrayLiteral", "enumerated"]
+- ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps30ExpressibleByDictionaryLiteral", "count"]
+- ["Ps30ExpressibleByDictionaryLiteral", "enumerated"]
+- ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["Ps8Hashable", "RenderError"]
+- ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "arrayValue"]
+- ["Ps8Hashable", "dictionaryValue"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "isEmpty"]
+- ["Ps8Hashable", "render"]
+- ["Ps8Hashable", "value"]
+- ["Si", "deinit"]
+- ["OV8Mustache13MustacheError4Kind", "RenderError"]
+- ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["Ps10MirrorPath", "init"]
+- ["C8Mustache11MustacheBox", "arrayValue"]
+- ["C8Mustache11MustacheBox", "deinit"]
+- ["C8Mustache11MustacheBox", "dictionaryValue"]
+- ["C8Mustache11MustacheBox", "isEmpty"]
+- ["C8Mustache11MustacheBox", "render"]
+- ["C8Mustache11MustacheBox", "value"]
+- ["P8Mustache15MustacheBoxable", "_getBuiltinLogicValue"]
+- ["P8Mustache15MustacheBoxable", "arrayValue"]
+- ["P8Mustache15MustacheBoxable", "count"]
+- ["P8Mustache15MustacheBoxable", "dictionaryValue"]
+- ["P8Mustache15MustacheBoxable", "enumerated"]
+- ["P8Mustache15MustacheBoxable", "init"]
+- ["P8Mustache15MustacheBoxable", "isEmpty"]
+- ["P8Mustache15MustacheBoxable", "render"]
+- ["P8Mustache15MustacheBoxable", "subscript"]
+- ["P8Mustache15MustacheBoxable", "value"]
+- ["V8Mustache13MustacheError", "deinit"]
+- ["V8Mustache13MustacheError", "init"]
+- ["Ps17MutableCollection", "count"]
+- ["Ps17MutableCollection", "enumerated"]
+- ["PSo8NSCoding", "init"]
+- ["PSo9NSCopying", "init"]
+- ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "arrayValue"]
+- ["CSo8NSObject", "dictionaryValue"]
+- ["CSo8NSObject", "isEmpty"]
+- ["CSo8NSObject", "render"]
+- ["CSo8NSObject", "value"]
+- ["PSo16NSObjectProtocol", "arrayValue"]
+- ["PSo16NSObjectProtocol", "dictionaryValue"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "isEmpty"]
+- ["PSo16NSObjectProtocol", "render"]
+- ["PSo16NSObjectProtocol", "value"]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- ["Ps22RandomAccessCollection", "count"]
+- ["Ps22RandomAccessCollection", "enumerated"]
+- ["Ps26RangeReplaceableCollection", "count"]
+- ["Ps26RangeReplaceableCollection", "enumerated"]
+- ["Ps16RawRepresentable", "RenderError"]
+- ["V8Mustache13RenderingInfo", "context"]
+- ["Ps8Sequence", "count"]
+- ["Ps8Sequence", "enumerated"]
+- ["Ps8Sequence", "map"]
+- ["Ps8Sequence", "subscript"]
+- ["SS", "deinit"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- ["Ps14_ArrayProtocol", "count"]
+- ["Ps14_ArrayProtocol", "enumerated"]
+- ["Ps23_BidirectionalIndexable", "count"]
+- ["Ps23_BidirectionalIndexable", "enumerated"]
+- ["Ps24_DestructorSafeContainer", "count"]
+- ["Ps24_DestructorSafeContainer", "enumerated"]
+- ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- ["Ps33_ExpressibleByStringInterpolation", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- ["Ps9_Hashable", "RenderError"]
+- ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "arrayValue"]
+- ["Ps9_Hashable", "dictionaryValue"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "isEmpty"]
+- ["Ps9_Hashable", "render"]
+- ["Ps9_Hashable", "value"]
+- ["Ps10_Indexable", "count"]
+- ["Ps10_Indexable", "enumerated"]
+- ["Ps10_Indexable", "subscript"]
+- ["Ps14_IndexableBase", "count"]
+- ["Ps14_IndexableBase", "enumerated"]
+- ["Ps14_IndexableBase", "subscript"]
+- ["Ps17_MutableIndexable", "count"]
+- ["Ps17_MutableIndexable", "enumerated"]
+- ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- ["Ps21_ObjectiveCBridgeable", "count"]
+- ["Ps21_ObjectiveCBridgeable", "enumerated"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- ["Ps21_ObjectiveCBridgeable", "subscript"]
+- ["Ps22_RandomAccessIndexable", "count"]
+- ["Ps22_RandomAccessIndexable", "enumerated"]
+- ["Ps26_RangeReplaceableIndexable", "count"]
+- ["Ps26_RangeReplaceableIndexable", "enumerated"]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sa"
+- "Ps23BidirectionalCollection"
+- "Sb"
+- "Ps7CVarArg"
+- "Ps10Collection"
+- "Ps10Comparable"
+- "C8Mustache7Context"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Vs10Dictionary"
+- "Vs18EnumeratedSequence"
+- "Ps9Equatable"
+- "Ps5Error"
+- "Ps25ExpressibleByArrayLiteral"
+- "Ps27ExpressibleByBooleanLiteral"
+- "Ps30ExpressibleByDictionaryLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "Ps8Hashable"
+- "Si"
+- "OV8Mustache13MustacheError4Kind"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "C8Mustache11MustacheBox"
+- "P8Mustache15MustacheBoxable"
+- "V8Mustache13MustacheError"
+- "Ps17MutableCollection"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "Ps22RandomAccessCollection"
+- "Ps26RangeReplaceableCollection"
+- "Ps16RawRepresentable"
+- "V8Mustache13RenderingInfo"
+- "Ps8Sequence"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "Ps14_ArrayProtocol"
+- "Ps23_BidirectionalIndexable"
+- "Ps24_DestructorSafeContainer"
+- "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- "Ps33_ExpressibleByStringInterpolation"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps10_Indexable"
+- "Ps14_IndexableBase"
+- "Ps17_MutableIndexable"
+- "Ps21_ObjectiveCBridgeable"
+- "Ps22_RandomAccessIndexable"
+- "Ps26_RangeReplaceableIndexable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/george/Developer/website/.build/debug/Bridging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/george/Developer/website/.build/checkouts/CommonCrypto.git-1219305460334093717/module.modulemap"
+- "/Users/george/Developer/website/.build/debug/CHTTPParser.build/module.modulemap"
+interface-hash: "5934d77452d1bd4d60fe62ad468fb14f"

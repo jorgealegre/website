@@ -1,0 +1,95 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Box"
+provides-nominal:
+provides-member:
+provides-dynamic-lookup:
+depends-top-level:
+- "Box"
+- !private "Filter"
+- "Formatter"
+- "MustacheBox"
+- !private "Tag"
+depends-member:
+- !private ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "string"]
+- !private ["Ps9AnyObject", "value"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "string"]
+- !private ["Ps7CVarArg", "value"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "string"]
+- !private ["Ps28CustomDebugStringConvertible", "value"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "string"]
+- !private ["Ps23CustomStringConvertible", "type"]
+- !private ["Ps23CustomStringConvertible", "value"]
+- !private ["Ps9Equatable", "Section"]
+- !private ["Ps9Equatable", "Variable"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "string"]
+- !private ["Ps9Equatable", "value"]
+- !private ["CSo9Formatter", "string"]
+- !private ["Ps8Hashable", "Section"]
+- !private ["Ps8Hashable", "Variable"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "string"]
+- !private ["Ps8Hashable", "value"]
+- !private ["C8Mustache11MustacheBox", "init"]
+- !private ["C8Mustache11MustacheBox", "value"]
+- !private ["P8Mustache15MustacheBoxable", "init"]
+- !private ["P8Mustache15MustacheBoxable", "string"]
+- !private ["P8Mustache15MustacheBoxable", "value"]
+- !private ["PSo8NSCoding", "string"]
+- !private ["PSo9NSCopying", "string"]
+- !private ["CSo8NSObject", "string"]
+- !private ["CSo8NSObject", "value"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "string"]
+- !private ["PSo16NSObjectProtocol", "value"]
+- !private ["SS", "deinit"]
+- !private ["P8Mustache3Tag", "type"]
+- !private ["O8Mustache7TagType", "Section"]
+- !private ["O8Mustache7TagType", "Variable"]
+- !private ["Ps9_Hashable", "Section"]
+- !private ["Ps9_Hashable", "Variable"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "string"]
+- !private ["Ps9_Hashable", "value"]
+depends-nominal:
+- !private "Ps9AnyObject"
+- !private "Ps7CVarArg"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "CSo9Formatter"
+- !private "Ps8Hashable"
+- !private "C8Mustache11MustacheBox"
+- !private "P8Mustache15MustacheBoxable"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "SS"
+- !private "P8Mustache3Tag"
+- !private "O8Mustache7TagType"
+- !private "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/george/Developer/website/.build/debug/Bridging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/george/Developer/website/.build/checkouts/CommonCrypto.git-1219305460334093717/module.modulemap"
+- "/Users/george/Developer/website/.build/debug/CHTTPParser.build/module.modulemap"
+interface-hash: "9f9d63447a939b9b59d093d490335831"

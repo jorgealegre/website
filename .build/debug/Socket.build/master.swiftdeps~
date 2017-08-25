@@ -1,0 +1,7 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "89a18e449f13140b3c997a15f08f31d4"
+build_time: [556037809, 236147000]
+inputs:
+  "/Users/george/Developer/website/.build/checkouts/BlueSocket.git-3162807777605905816/Sources/Socket.swift": [556037796, 0]
+  "/Users/george/Developer/website/.build/checkouts/BlueSocket.git-3162807777605905816/Sources/SocketProtocols.swift": [556037796, 0]
+  "/Users/george/Developer/website/.build/checkouts/BlueSocket.git-3162807777605905816/Sources/SocketUtils.swift": [556037796, 0]

@@ -1,0 +1,23 @@
+{
+  "": {
+    "swift-dependencies": "/Users/george/Developer/website/.build/debug/Socket.build/master.swiftdeps"
+  },
+  "/Users/george/Developer/website/.build/checkouts/BlueSocket.git-3162807777605905816/Sources/Socket.swift": {
+    "dependencies": "/Users/george/Developer/website/.build/debug/Socket.build/Socket.d",
+    "object": "/Users/george/Developer/website/.build/debug/Socket.build/Socket.swift.o",
+    "swiftmodule": "/Users/george/Developer/website/.build/debug/Socket.build/Socket~partial.swiftmodule",
+    "swift-dependencies": "/Users/george/Developer/website/.build/debug/Socket.build/Socket.swiftdeps"
+  },
+  "/Users/george/Developer/website/.build/checkouts/BlueSocket.git-3162807777605905816/Sources/SocketProtocols.swift": {
+    "dependencies": "/Users/george/Developer/website/.build/debug/Socket.build/SocketProtocols.d",
+    "object": "/Users/george/Developer/website/.build/debug/Socket.build/SocketProtocols.swift.o",
+    "swiftmodule": "/Users/george/Developer/website/.build/debug/Socket.build/SocketProtocols~partial.swiftmodule",
+    "swift-dependencies": "/Users/george/Developer/website/.build/debug/Socket.build/SocketProtocols.swiftdeps"
+  },
+  "/Users/george/Developer/website/.build/checkouts/BlueSocket.git-3162807777605905816/Sources/SocketUtils.swift": {
+    "dependencies": "/Users/george/Developer/website/.build/debug/Socket.build/SocketUtils.d",
+    "object": "/Users/george/Developer/website/.build/debug/Socket.build/SocketUtils.swift.o",
+    "swiftmodule": "/Users/george/Developer/website/.build/debug/Socket.build/SocketUtils~partial.swiftmodule",
+    "swift-dependencies": "/Users/george/Developer/website/.build/debug/Socket.build/SocketUtils.swiftdeps"
+  }
+}

@@ -1,4 +1,4 @@
-# Systemd service file for a Vapor app
+# Systemd service file for a personal website
 # put in /lib/systemd/system
 # use: systemctl clean stop/start/reload/restart/status app.service
 #
@@ -10,8 +10,8 @@ After=syslog.target
 
 [Service]
 User=ubuntu
-WorkingDirectory=/home/ubuntu/app
-ExecStart=/home/ubuntu/app/.build/release/App --env=production
+WorkingDirectory=/home/ubuntu/website
+ExecStart=/home/ubuntu/website/.build/release/website --env=production
 Restart=on-abort
 
 #Type=idle

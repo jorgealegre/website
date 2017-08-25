@@ -1,0 +1,12 @@
+version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
+options: "6e0295e6fd0cf8fc46fafd3a325696c3"
+build_time: [556969262, 937170000]
+inputs:
+  "/Users/george/Developer/website/.build/checkouts/Spectre.git--7655155069707042687/Sources/Case.swift": [556969256, 0]
+  "/Users/george/Developer/website/.build/checkouts/Spectre.git--7655155069707042687/Sources/Context.swift": [556969256, 0]
+  "/Users/george/Developer/website/.build/checkouts/Spectre.git--7655155069707042687/Sources/Expectation.swift": [556969256, 0]
+  "/Users/george/Developer/website/.build/checkouts/Spectre.git--7655155069707042687/Sources/Failure.swift": [556969256, 0]
+  "/Users/george/Developer/website/.build/checkouts/Spectre.git--7655155069707042687/Sources/Global.swift": [556969256, 0]
+  "/Users/george/Developer/website/.build/checkouts/Spectre.git--7655155069707042687/Sources/GlobalContext.swift": [556969256, 0]
+  "/Users/george/Developer/website/.build/checkouts/Spectre.git--7655155069707042687/Sources/Reporter.swift": [556969256, 0]
+  "/Users/george/Developer/website/.build/checkouts/Spectre.git--7655155069707042687/Sources/Reporters.swift": [556969256, 0]

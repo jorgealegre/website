@@ -1,0 +1,12 @@
+{% extends "layouts/main.stencil" %}
+
+{% block head %}
+    <title>George Alegre</title>
+    <link rel="stylesheet" href="/static/stylesheets/index.css"/>
+{% endblock %}
+
+
+{% block content %}
+    <h1>George Alegre</h1>
+    <p>Welcome to my personal website. It's still in construction so you wont find anything of much use.</p>
+{% endblock %}

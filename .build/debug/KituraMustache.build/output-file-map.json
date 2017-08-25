@@ -1,0 +1,11 @@
+{
+  "": {
+    "swift-dependencies": "/Users/george/Developer/website/.build/debug/KituraMustache.build/master.swiftdeps"
+  },
+  "/Users/george/Developer/website/.build/checkouts/Kitura-MustacheTemplateEngine.git-6918066069110757477/Sources/KituraMustacheTemplateEngine.swift": {
+    "dependencies": "/Users/george/Developer/website/.build/debug/KituraMustache.build/KituraMustacheTemplateEngine.d",
+    "object": "/Users/george/Developer/website/.build/debug/KituraMustache.build/KituraMustacheTemplateEngine.swift.o",
+    "swiftmodule": "/Users/george/Developer/website/.build/debug/KituraMustache.build/KituraMustacheTemplateEngine~partial.swiftmodule",
+    "swift-dependencies": "/Users/george/Developer/website/.build/debug/KituraMustache.build/KituraMustacheTemplateEngine.swiftdeps"
+  }
+}

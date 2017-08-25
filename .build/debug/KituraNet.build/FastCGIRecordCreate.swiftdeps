@@ -1,0 +1,400 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FastCGIRecordCreate"
+provides-nominal:
+- "C9KituraNet19FastCGIRecordCreate"
+provides-member:
+- ["C9KituraNet19FastCGIRecordCreate", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "%"
+- !private "-"
+- !private "..."
+- !private "<="
+- !private "=="
+- !private ">"
+- !private "AssignmentPrecedence"
+- "Bool"
+- "BooleanLiteralType"
+- !private "CFSwapInt16HostToBig"
+- !private "CFSwapInt32HostToBig"
+- "Data"
+- "FastCGI"
+- "FastCGIRecordCreate"
+- !private "FloatLiteralType"
+- !private "Int"
+- !private "IntegerLiteralType"
+- "String"
+- !private "TernaryPrecedence"
+- "UInt16"
+- !private "UInt32"
+- "UInt8"
+- !private "UnsafeRawPointer"
+- !private "Void"
+- !private "|"
+- !private "~"
+- !private "~="
+depends-member:
+- !private ["Ps9AnyObject", "CFSwapInt16HostToBig"]
+- !private ["Ps9AnyObject", "CFSwapInt32HostToBig"]
+- ["Ps9AnyObject", "Constants"]
+- !private ["Ps9AnyObject", "Data"]
+- ["Ps9AnyObject", "FastCGI"]
+- !private ["Ps9AnyObject", "FastCGIRecordCreate"]
+- !private ["Ps9AnyObject", "Int"]
+- !private ["Ps9AnyObject", "RecordErrors"]
+- !private ["Ps9AnyObject", "UInt16"]
+- !private ["Ps9AnyObject", "UInt32"]
+- !private ["Ps9AnyObject", "UInt8"]
+- !private ["Ps9AnyObject", "UnsafeRawPointer"]
+- !private ["Ps9AnyObject", "appendBytes"]
+- !private ["Ps9AnyObject", "appendZeroes"]
+- !private ["Ps9AnyObject", "createParameterRecords"]
+- !private ["Ps9AnyObject", "createRecordStarter"]
+- !private ["Ps9AnyObject", "data"]
+- !private ["Ps9AnyObject", "finalizeDataRecord"]
+- !private ["Ps9AnyObject", "finalizeParameters"]
+- !private ["Ps9AnyObject", "finalizeRequestBeginRecord"]
+- !private ["Ps9AnyObject", "finalizeRequestCompleteRecord"]
+- !private ["Ps9AnyObject", "getNetworkByteOrderLarge"]
+- !private ["Ps9AnyObject", "getNetworkByteOrderSmall"]
+- !private ["Ps9AnyObject", "keepAlive"]
+- !private ["Ps9AnyObject", "parameters"]
+- !private ["Ps9AnyObject", "protocolStatus"]
+- !private ["Ps9AnyObject", "recordTest"]
+- !private ["Ps9AnyObject", "recordType"]
+- !private ["Ps9AnyObject", "requestId"]
+- !private ["Ps9AnyObject", "requestRole"]
+- !private ["Ps9AnyObject", "writeEncodedLength"]
+- ["Ps9AnyObject", ""]
+- !private ["Ps23BidirectionalCollection", "append"]
+- !private ["Ps23BidirectionalCollection", "count"]
+- !private ["Ps23BidirectionalCollection", "init"]
+- !private ["Ps17BitwiseOperations", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps7CVarArg", "data"]
+- !private ["Ps7CVarArg", "init"]
+- !private ["Ps10Collection", "append"]
+- !private ["Ps10Collection", "count"]
+- !private ["Ps10Collection", "init"]
+- !private ["Ps10Comparable", "assumingMemoryBound"]
+- !private ["Ps10Comparable", "data"]
+- !private ["Ps10Comparable", "init"]
+- ["VC9KituraNet7FastCGI9Constants", "FASTCGI_DEFAULT_REQUEST_ID"]
+- !private ["VC9KituraNet7FastCGI9Constants", "FASTCGI_PROTOCOL_VERSION"]
+- !private ["VC9KituraNet7FastCGI9Constants", "FCGI_BEGIN_REQUEST"]
+- !private ["VC9KituraNet7FastCGI9Constants", "FCGI_CANT_MPX_CONN"]
+- !private ["VC9KituraNet7FastCGI9Constants", "FCGI_END_REQUEST"]
+- !private ["VC9KituraNet7FastCGI9Constants", "FCGI_KEEP_CONN"]
+- ["VC9KituraNet7FastCGI9Constants", "FCGI_NO_ROLE"]
+- ["VC9KituraNet7FastCGI9Constants", "FCGI_NO_TYPE"]
+- !private ["VC9KituraNet7FastCGI9Constants", "FCGI_PARAMS"]
+- !private ["VC9KituraNet7FastCGI9Constants", "FCGI_REQUEST_COMPLETE"]
+- !private ["VC9KituraNet7FastCGI9Constants", "FCGI_RESPONDER"]
+- !private ["VC9KituraNet7FastCGI9Constants", "FCGI_STDIN"]
+- !private ["VC9KituraNet7FastCGI9Constants", "FCGI_STDOUT"]
+- ["VC9KituraNet7FastCGI9Constants", "FCGI_SUBTYPE_NO_TYPE"]
+- !private ["VC9KituraNet7FastCGI9Constants", "FCGI_UNKNOWN_ROLE"]
+- !private ["Ps28CustomDebugStringConvertible", "append"]
+- !private ["Ps28CustomDebugStringConvertible", "assumingMemoryBound"]
+- !private ["Ps28CustomDebugStringConvertible", "count"]
+- !private ["Ps28CustomDebugStringConvertible", "data"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "assumingMemoryBound"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "data"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "append"]
+- !private ["Ps17CustomReflectable", "assumingMemoryBound"]
+- !private ["Ps17CustomReflectable", "count"]
+- !private ["Ps17CustomReflectable", "data"]
+- !private ["Ps17CustomReflectable", "init"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "append"]
+- !private ["Ps23CustomStringConvertible", "count"]
+- !private ["Ps23CustomStringConvertible", "data"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "utf8"]
+- !private ["V10Foundation4Data", "append"]
+- !private ["V10Foundation4Data", "count"]
+- !private ["V10Foundation4Data", "init"]
+- !private ["VE10FoundationSS8Encoding", "utf8"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "append"]
+- !private ["Ps9Equatable", "assumingMemoryBound"]
+- !private ["Ps9Equatable", "count"]
+- !private ["Ps9Equatable", "data"]
+- !private ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "invalidRequestId"]
+- !private ["Ps9Equatable", "invalidRole"]
+- !private ["Ps9Equatable", "invalidSubType"]
+- !private ["Ps9Equatable", "invalidType"]
+- !private ["Ps9Equatable", "oversizeData"]
+- !private ["Ps9Equatable", "utf8"]
+- !private ["Ps5Error", "invalidRequestId"]
+- !private ["Ps5Error", "invalidRole"]
+- !private ["Ps5Error", "invalidSubType"]
+- !private ["Ps5Error", "invalidType"]
+- !private ["Ps5Error", "oversizeData"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "data"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "data"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "data"]
+- ["C9KituraNet7FastCGI", "Constants"]
+- !private ["C9KituraNet7FastCGI", "RecordErrors"]
+- ["C9KituraNet19FastCGIRecordCreate", "Bool"]
+- !private ["C9KituraNet19FastCGIRecordCreate", "CFSwapInt16HostToBig"]
+- !private ["C9KituraNet19FastCGIRecordCreate", "CFSwapInt32HostToBig"]
+- ["C9KituraNet19FastCGIRecordCreate", "Data"]
+- ["C9KituraNet19FastCGIRecordCreate", "FastCGI"]
+- !private ["C9KituraNet19FastCGIRecordCreate", "FastCGIRecordCreate"]
+- !private ["C9KituraNet19FastCGIRecordCreate", "Int"]
+- ["C9KituraNet19FastCGIRecordCreate", "String"]
+- ["C9KituraNet19FastCGIRecordCreate", "UInt16"]
+- !private ["C9KituraNet19FastCGIRecordCreate", "UInt32"]
+- ["C9KituraNet19FastCGIRecordCreate", "UInt8"]
+- !private ["C9KituraNet19FastCGIRecordCreate", "UnsafeRawPointer"]
+- !private ["C9KituraNet19FastCGIRecordCreate", "Void"]
+- !private ["C9KituraNet19FastCGIRecordCreate", "appendBytes"]
+- !private ["C9KituraNet19FastCGIRecordCreate", "appendZeroes"]
+- ["C9KituraNet19FastCGIRecordCreate", "create"]
+- !private ["C9KituraNet19FastCGIRecordCreate", "createParameterRecords"]
+- !private ["C9KituraNet19FastCGIRecordCreate", "createRecordStarter"]
+- ["C9KituraNet19FastCGIRecordCreate", "data"]
+- ["C9KituraNet19FastCGIRecordCreate", "deinit"]
+- !private ["C9KituraNet19FastCGIRecordCreate", "finalizeDataRecord"]
+- !private ["C9KituraNet19FastCGIRecordCreate", "finalizeParameters"]
+- !private ["C9KituraNet19FastCGIRecordCreate", "finalizeRequestBeginRecord"]
+- !private ["C9KituraNet19FastCGIRecordCreate", "finalizeRequestCompleteRecord"]
+- !private ["C9KituraNet19FastCGIRecordCreate", "getNetworkByteOrderLarge"]
+- !private ["C9KituraNet19FastCGIRecordCreate", "getNetworkByteOrderSmall"]
+- ["C9KituraNet19FastCGIRecordCreate", "init"]
+- ["C9KituraNet19FastCGIRecordCreate", "keepAlive"]
+- ["C9KituraNet19FastCGIRecordCreate", "parameters"]
+- ["C9KituraNet19FastCGIRecordCreate", "protocolStatus"]
+- !private ["C9KituraNet19FastCGIRecordCreate", "recordTest"]
+- ["C9KituraNet19FastCGIRecordCreate", "recordType"]
+- ["C9KituraNet19FastCGIRecordCreate", "requestId"]
+- ["C9KituraNet19FastCGIRecordCreate", "requestRole"]
+- !private ["C9KituraNet19FastCGIRecordCreate", "writeEncodedLength"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "append"]
+- !private ["Ps8Hashable", "assumingMemoryBound"]
+- !private ["Ps8Hashable", "count"]
+- !private ["Ps8Hashable", "data"]
+- !private ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "invalidRequestId"]
+- !private ["Ps8Hashable", "invalidRole"]
+- !private ["Ps8Hashable", "invalidSubType"]
+- !private ["Ps8Hashable", "invalidType"]
+- !private ["Ps8Hashable", "oversizeData"]
+- !private ["Ps8Hashable", "utf8"]
+- !private ["Si", "init"]
+- !private ["Ps7Integer", "init"]
+- !private ["Ps17IntegerArithmetic", "init"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "data"]
+- !private ["Ps10MirrorPath", "data"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "append"]
+- !private ["Ps17MutableCollection", "count"]
+- !private ["Ps17MutableCollection", "init"]
+- !private ["PSo8NSCoding", "data"]
+- !private ["PSo9NSCopying", "data"]
+- !private ["PSo16NSMutableCopying", "data"]
+- !private ["CSo8NSObject", "data"]
+- !private ["PSo16NSObjectProtocol", "data"]
+- !private ["PSo14NSSecureCoding", "data"]
+- !private ["CSo8NSString", "data"]
+- !private ["Ps22RandomAccessCollection", "append"]
+- !private ["Ps22RandomAccessCollection", "count"]
+- !private ["Ps22RandomAccessCollection", "init"]
+- !private ["Ps26RangeReplaceableCollection", "append"]
+- !private ["Ps26RangeReplaceableCollection", "count"]
+- !private ["Ps26RangeReplaceableCollection", "init"]
+- !private ["Ps16RawRepresentable", "utf8"]
+- !private ["OC9KituraNet7FastCGI12RecordErrors", "deinit"]
+- !private ["OC9KituraNet7FastCGI12RecordErrors", "invalidRequestId"]
+- !private ["OC9KituraNet7FastCGI12RecordErrors", "invalidRole"]
+- !private ["OC9KituraNet7FastCGI12RecordErrors", "invalidSubType"]
+- !private ["OC9KituraNet7FastCGI12RecordErrors", "invalidType"]
+- !private ["OC9KituraNet7FastCGI12RecordErrors", "oversizeData"]
+- !private ["P10Foundation20ReferenceConvertible", "append"]
+- !private ["P10Foundation20ReferenceConvertible", "count"]
+- !private ["P10Foundation20ReferenceConvertible", "init"]
+- !private ["Ps8Sequence", "append"]
+- !private ["Ps8Sequence", "count"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Ps13SignedInteger", "init"]
+- !private ["Ps12SignedNumber", "init"]
+- !private ["Ps10Strideable", "assumingMemoryBound"]
+- !private ["Ps10Strideable", "init"]
+- !private ["SS", "data"]
+- !private ["Ps16TextOutputStream", "data"]
+- !private ["Ps20TextOutputStreamable", "data"]
+- !private ["Vs6UInt16", "init"]
+- !private ["Vs6UInt32", "init"]
+- !private ["Vs5UInt8", "init"]
+- !private ["SV", "assumingMemoryBound"]
+- !private ["SV", "init"]
+- !private ["Ps15UnsignedInteger", "init"]
+- !private ["Ps23_BidirectionalIndexable", "append"]
+- !private ["Ps23_BidirectionalIndexable", "count"]
+- !private ["Ps23_BidirectionalIndexable", "init"]
+- !private ["Ps28_DisallowMixedSignArithmetic", "init"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "data"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "init"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "data"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "data"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "data"]
+- !private ["Ps33_ExpressibleByStringInterpolation", "data"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "data"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "append"]
+- !private ["Ps9_Hashable", "assumingMemoryBound"]
+- !private ["Ps9_Hashable", "count"]
+- !private ["Ps9_Hashable", "data"]
+- !private ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "invalidRequestId"]
+- !private ["Ps9_Hashable", "invalidRole"]
+- !private ["Ps9_Hashable", "invalidSubType"]
+- !private ["Ps9_Hashable", "invalidType"]
+- !private ["Ps9_Hashable", "oversizeData"]
+- !private ["Ps9_Hashable", "utf8"]
+- !private ["Ps14_Incrementable", "init"]
+- !private ["Ps10_Indexable", "append"]
+- !private ["Ps10_Indexable", "count"]
+- !private ["Ps10_Indexable", "init"]
+- !private ["Ps14_IndexableBase", "append"]
+- !private ["Ps14_IndexableBase", "count"]
+- !private ["Ps14_IndexableBase", "init"]
+- !private ["Ps8_Integer", "init"]
+- !private ["Ps18_IntegerArithmetic", "init"]
+- !private ["Ps17_MutableIndexable", "append"]
+- !private ["Ps17_MutableIndexable", "count"]
+- !private ["Ps17_MutableIndexable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "append"]
+- !private ["Ps21_ObjectiveCBridgeable", "count"]
+- !private ["Ps21_ObjectiveCBridgeable", "data"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps8_Pointer", "assumingMemoryBound"]
+- !private ["Ps8_Pointer", "init"]
+- !private ["Ps22_RandomAccessIndexable", "append"]
+- !private ["Ps22_RandomAccessIndexable", "count"]
+- !private ["Ps22_RandomAccessIndexable", "init"]
+- !private ["Ps26_RangeReplaceableIndexable", "append"]
+- !private ["Ps26_RangeReplaceableIndexable", "count"]
+- !private ["Ps26_RangeReplaceableIndexable", "init"]
+- !private ["Ps14_SignedInteger", "init"]
+- !private ["Ps11_Strideable", "assumingMemoryBound"]
+- !private ["Ps11_Strideable", "init"]
+- !private ["Ps14_StringElement", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps17BitwiseOperations"
+- !private "Sb"
+- !private "Ps7CVarArg"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "VC9KituraNet7FastCGI9Constants"
+- !private "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "V10Foundation4Data"
+- !private "VE10FoundationSS8Encoding"
+- !private "Ps9Equatable"
+- !private "Ps5Error"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "C9KituraNet7FastCGI"
+- "C9KituraNet19FastCGIRecordCreate"
+- !private "Ps8Hashable"
+- !private "Si"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps16RawRepresentable"
+- !private "OC9KituraNet7FastCGI12RecordErrors"
+- !private "P10Foundation20ReferenceConvertible"
+- !private "Ps8Sequence"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Ps10Strideable"
+- !private "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs5UInt8"
+- !private "SV"
+- !private "Ps15UnsignedInteger"
+- !private "Ps23_BidirectionalIndexable"
+- !private "Ps28_DisallowMixedSignArithmetic"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps33_ExpressibleByStringInterpolation"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- !private "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps10_Indexable"
+- !private "Ps14_IndexableBase"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps17_MutableIndexable"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps8_Pointer"
+- !private "Ps22_RandomAccessIndexable"
+- !private "Ps26_RangeReplaceableIndexable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+- !private "Ps14_StringElement"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/george/Developer/website/.build/debug/LoggerAPI.swiftmodule"
+- "/Users/george/Developer/website/.build/debug/SSLService.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/george/Developer/website/.build/debug/Socket.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/george/Developer/website/.build/checkouts/Kitura-net.git--7410958935072501107/Sources/CHTTPParser/include/CHTTPParser.h"
+- "/Users/george/Developer/website/.build/checkouts/Kitura-net.git--7410958935072501107/Sources/CHTTPParser/include/http_parser.h"
+- "/Users/george/Developer/website/.build/checkouts/Kitura-net.git--7410958935072501107/Sources/CHTTPParser/include/utils.h"
+- "/Users/george/Developer/website/.build/checkouts/CommonCrypto.git-1219305460334093717/module.modulemap"
+- "/Users/george/Developer/website/.build/checkouts/CCurl.git-8026296523752779197/module.modulemap"
+- "/Users/george/Developer/website/.build/debug/CHTTPParser.build/module.modulemap"
+interface-hash: "636a24be1da2401cf0fe201edd38a4b1"

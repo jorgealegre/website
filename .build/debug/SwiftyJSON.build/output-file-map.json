@@ -1,0 +1,17 @@
+{
+  "": {
+    "swift-dependencies": "/Users/george/Developer/website/.build/debug/SwiftyJSON.build/master.swiftdeps"
+  },
+  "/Users/george/Developer/website/.build/checkouts/SwiftyJSON.git--6955445084174387031/Source/LclJSONSerialization.swift": {
+    "dependencies": "/Users/george/Developer/website/.build/debug/SwiftyJSON.build/LclJSONSerialization.d",
+    "object": "/Users/george/Developer/website/.build/debug/SwiftyJSON.build/LclJSONSerialization.swift.o",
+    "swiftmodule": "/Users/george/Developer/website/.build/debug/SwiftyJSON.build/LclJSONSerialization~partial.swiftmodule",
+    "swift-dependencies": "/Users/george/Developer/website/.build/debug/SwiftyJSON.build/LclJSONSerialization.swiftdeps"
+  },
+  "/Users/george/Developer/website/.build/checkouts/SwiftyJSON.git--6955445084174387031/Source/SwiftyJSON.swift": {
+    "dependencies": "/Users/george/Developer/website/.build/debug/SwiftyJSON.build/SwiftyJSON.d",
+    "object": "/Users/george/Developer/website/.build/debug/SwiftyJSON.build/SwiftyJSON.swift.o",
+    "swiftmodule": "/Users/george/Developer/website/.build/debug/SwiftyJSON.build/SwiftyJSON~partial.swiftmodule",
+    "swift-dependencies": "/Users/george/Developer/website/.build/debug/SwiftyJSON.build/SwiftyJSON.swiftdeps"
+  }
+}

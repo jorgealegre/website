@@ -1,0 +1,63 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "StandardLibrary"
+provides-nominal:
+- "V8Mustache15StandardLibrary"
+provides-member:
+- ["V8Mustache15StandardLibrary", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "EachFilter"
+- "HTMLEscapeHelper"
+- "JavascriptEscapeHelper"
+- "MustacheBoxable"
+- "StandardLibrary"
+- "URLEscapeHelper"
+- "ZipFilter"
+depends-member:
+- ["Ps9AnyObject", "init"]
+- ["C8Mustache16HTMLEscapeHelper", "deinit"]
+- ["C8Mustache16HTMLEscapeHelper", "init"]
+- ["C8Mustache22JavascriptEscapeHelper", "deinit"]
+- ["C8Mustache22JavascriptEscapeHelper", "init"]
+- ["P8Mustache15MustacheBoxable", "init"]
+- ["V8Mustache15StandardLibrary", "EachFilter"]
+- ["V8Mustache15StandardLibrary", "HTMLEscape"]
+- ["V8Mustache15StandardLibrary", "HTMLEscapeHelper"]
+- ["V8Mustache15StandardLibrary", "JavascriptEscapeHelper"]
+- ["V8Mustache15StandardLibrary", "MustacheBoxable"]
+- ["V8Mustache15StandardLibrary", "URLEscape"]
+- ["V8Mustache15StandardLibrary", "URLEscapeHelper"]
+- ["V8Mustache15StandardLibrary", "ZipFilter"]
+- ["V8Mustache15StandardLibrary", "each"]
+- ["V8Mustache15StandardLibrary", "init"]
+- ["V8Mustache15StandardLibrary", "javascriptEscape"]
+- ["V8Mustache15StandardLibrary", "zip"]
+- ["C8Mustache15URLEscapeHelper", "deinit"]
+- ["C8Mustache15URLEscapeHelper", "init"]
+depends-nominal:
+- "Ps9AnyObject"
+- "C8Mustache16HTMLEscapeHelper"
+- "C8Mustache22JavascriptEscapeHelper"
+- "P8Mustache15MustacheBoxable"
+- "V8Mustache15StandardLibrary"
+- "C8Mustache15URLEscapeHelper"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/george/Developer/website/.build/debug/Bridging.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/george/Developer/website/.build/checkouts/CommonCrypto.git-1219305460334093717/module.modulemap"
+- "/Users/george/Developer/website/.build/debug/CHTTPParser.build/module.modulemap"
+interface-hash: "99ef79553a80c2848584637153eb1168"

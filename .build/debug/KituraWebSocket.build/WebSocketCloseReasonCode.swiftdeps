@@ -1,0 +1,82 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "WebSocketCloseReasonCode"
+provides-nominal:
+- "O15KituraWebSocket24WebSocketCloseReasonCode"
+provides-member:
+- ["O15KituraWebSocket24WebSocketCloseReasonCode", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "FloatLiteralType"
+- "Int16"
+- !private "IntegerLiteralType"
+- "WebSocketCloseReasonCode"
+- !private "~="
+depends-member:
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["O15KituraWebSocket24WebSocketCloseReasonCode", "Int16"]
+- ["O15KituraWebSocket24WebSocketCloseReasonCode", "WebSocketCloseReasonCode"]
+- ["O15KituraWebSocket24WebSocketCloseReasonCode", "closedAbnormally"]
+- ["O15KituraWebSocket24WebSocketCloseReasonCode", "code"]
+- ["O15KituraWebSocket24WebSocketCloseReasonCode", "extensionMissing"]
+- ["O15KituraWebSocket24WebSocketCloseReasonCode", "from"]
+- ["O15KituraWebSocket24WebSocketCloseReasonCode", "goingAway"]
+- ["O15KituraWebSocket24WebSocketCloseReasonCode", "invalidDataContents"]
+- ["O15KituraWebSocket24WebSocketCloseReasonCode", "invalidDataType"]
+- ["O15KituraWebSocket24WebSocketCloseReasonCode", "messageTooLarge"]
+- ["O15KituraWebSocket24WebSocketCloseReasonCode", "noReasonCodeSent"]
+- ["O15KituraWebSocket24WebSocketCloseReasonCode", "normal"]
+- ["O15KituraWebSocket24WebSocketCloseReasonCode", "policyViolation"]
+- ["O15KituraWebSocket24WebSocketCloseReasonCode", "protocolError"]
+- ["O15KituraWebSocket24WebSocketCloseReasonCode", "serverError"]
+- ["O15KituraWebSocket24WebSocketCloseReasonCode", "userDefined"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+depends-nominal:
+- !private "Sb"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- !private "Ps17CustomReflectable"
+- !private "Ps23CustomStringConvertible"
+- !private "Ps9Equatable"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps8Hashable"
+- !private "Ps25LosslessStringConvertible"
+- "O15KituraWebSocket24WebSocketCloseReasonCode"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps9_Hashable"
+- !private "Ps21_ObjectiveCBridgeable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreText.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/ObjectiveC.swiftmodule"
+- "/Users/george/Developer/website/.build/debug/LoggerAPI.swiftmodule"
+- "/Users/george/Developer/website/.build/debug/SSLService.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Foundation.swiftmodule"
+- "/Users/george/Developer/website/.build/debug/Cryptor.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/CoreGraphics.swiftmodule"
+- "/Users/george/Developer/website/.build/debug/KituraNet.swiftmodule"
+- "/Users/george/Developer/website/.build/debug/Socket.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/IOKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/macosx/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/george/Developer/website/.build/checkouts/Kitura-net.git--7410958935072501107/Sources/CHTTPParser/include/CHTTPParser.h"
+- "/Users/george/Developer/website/.build/checkouts/Kitura-net.git--7410958935072501107/Sources/CHTTPParser/include/http_parser.h"
+- "/Users/george/Developer/website/.build/checkouts/Kitura-net.git--7410958935072501107/Sources/CHTTPParser/include/utils.h"
+- "/Users/george/Developer/website/.build/checkouts/CommonCrypto.git-1219305460334093717/module.modulemap"
+- "/Users/george/Developer/website/.build/checkouts/CCurl.git-8026296523752779197/module.modulemap"
+- "/Users/george/Developer/website/.build/debug/CHTTPParser.build/module.modulemap"
+interface-hash: "198f567be50aa8ffbc119e180075ae63"

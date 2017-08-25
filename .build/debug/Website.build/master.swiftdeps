@@ -1,6 +1,0 @@
-version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
-options: "b73c11f5edc4da017d44c5b7c9d2ca33"
-build_time: [556969373, 636261000]
-inputs:
-  "/Users/george/Developer/website/Sources/Website/GameService.swift": [556068775, 0]
-  "/Users/george/Developer/website/Sources/Website/main.swift": [556969330, 0]

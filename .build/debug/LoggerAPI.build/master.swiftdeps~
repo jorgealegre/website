@@ -1,5 +1,0 @@
-version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
-options: "9bf05dd886c6aa04bd24e85f7d679ad2"
-build_time: [556037809, 236558000]
-inputs:
-  "/Users/george/Developer/website/.build/checkouts/LoggerAPI.git--6449715459278086880/Sources/LoggerAPI/Logger.swift": [556037796, 0]

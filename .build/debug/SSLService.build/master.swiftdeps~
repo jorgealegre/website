@@ -1,5 +1,0 @@
-version: "Apple Swift version 3.1 (swiftlang-802.0.53 clang-802.0.42)"
-options: "78aea0d001c99fa35ccf0aaa2ed32e7d"
-build_time: [556037823, 326572000]
-inputs:
-  "/Users/george/Developer/website/.build/checkouts/BlueSSLService.git--6577639804771281610/Sources/SSLService.swift": [556037796, 0]

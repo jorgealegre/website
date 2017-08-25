@@ -48,10 +48,12 @@ class GameService: WebSocketService {
     }
     
     private func startGame() {
+        #if os(macOS)
         let notificationCenter = NotificationCenter.default
         notificationCenter.addObserver(forName: .NSFileHandleDataAvailable, object: outputFileHandle, queue: OperationQueue.current, using: dataAvailable)
         
         outputFileHandle!.waitForDataInBackgroundAndNotify()
+        #endif
         
         process.launch()
     }
@@ -67,6 +69,7 @@ class GameService: WebSocketService {
         }
     }
     
+    #if os(macOS)
     @objc private func dataAvailable(notification: Notification) {
         let fileHandle: FileHandle = notification.object as! FileHandle
         let data = fileHandle.availableData
@@ -76,6 +79,7 @@ class GameService: WebSocketService {
             broadcast(string)
         }
     }
+    #endif
     
     private func gameDidOutput(outputFileHandle: FileHandle) {
         let data = outputFileHandle.availableData

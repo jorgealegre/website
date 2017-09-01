@@ -5,7 +5,7 @@
 # put config files in /lib/systemd/system/app.service.d/myenv.conf
 
 [Unit]
-Description=Personal Swift-Vapor Website
+Description=Personal Website
 After=syslog.target
 
 [Service]

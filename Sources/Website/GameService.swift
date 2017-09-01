@@ -61,12 +61,14 @@ class GameService: WebSocketService {
     private func gameEnded(process: Process) {
         self.inputFileHandle = nil
         
+        #if os(macOS)
         switch(process.terminationReason) {
         case .exit:
             Log.info("The game finished running.")
         case .uncaughtSignal:
             Log.error("The game unexpectedly ended with status code: \(process.terminationStatus).")
         }
+        #endif
     }
     
     #if os(macOS)

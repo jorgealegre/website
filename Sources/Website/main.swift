@@ -6,11 +6,36 @@ import KituraWebSocket
 import KituraStencil
 
 import HeliumLogger
+import LoggerAPI
 
+Log.logger = HeliumLogger()
 HeliumLogger.use()
 
-let router = Router()
+class SecurityHandler: RouterMiddleware {
+    func handle(request: RouterRequest, response: RouterResponse, next: @escaping () -> Void) throws {
+        if !_isDebugAssertConfiguration() {
+            if request.headers["User-Agent"] ?? "" == "ELB-HealthChecker/1.0" {
+                Log.info("ELB HealthCheck...")
+            } else if request.headers["X-Forwarded-Proto"] ?? "" != "https" {
+                Log.info("Non secure request, redirecting...")
+                try response.redirect("https://georgealegre.com", status: .movedPermanently)
+            }
+            
+            response.headers["Strict-Transport-Security"] = "max-age=31536000" // 1 year
+        }
+        next()
+    }
+}
 
+extension Router {
+    convenience init(forcingHTTPS: Bool) {
+        self.init()
+        self.all(middleware: SecurityHandler())
+    }
+}
+
+let router = Router(forcingHTTPS: true)
+    
 router.setDefault(templateEngine: StencilTemplateEngine())
 
 router.all("/static", middleware: StaticFileServer())

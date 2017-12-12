@@ -2,8 +2,8 @@
 
 {% block head %}
     <title>WebSocket Test</title>
-    <script async src="/static/scripts/game.js"></script>
-    <link rel="stylesheet" href="/static/stylesheets/game.css"/>
+    <script async src="/public/scripts/game.js"></script>
+    <link rel="stylesheet" href="/public/stylesheets/game.css"/>
 {% endblock %}
 
 

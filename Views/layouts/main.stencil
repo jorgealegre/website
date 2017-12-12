@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8"/>
-        <link rel="stylesheet" href="/static/stylesheets/main.css"/>
+        <link rel="stylesheet" href="/public/stylesheets/main.css"/>
         {% block head %}{% endblock %}
     </head>
 

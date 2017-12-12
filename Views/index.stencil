@@ -2,11 +2,12 @@
 
 {% block head %}
     <title>George Alegre</title>
-    <link rel="stylesheet" href="/static/stylesheets/index.css"/>
+    <link rel="stylesheet" href="/public/stylesheets/index.css"/>
 {% endblock %}
 
 
 {% block content %}
     <h1>George Alegre</h1>
     <p>Welcome to my personal website. It's still in construction so you wont find anything of much use.</p>
+    <p>I'm planning on making this a very cool webapp. Stay tuned.</p>
 {% endblock %}

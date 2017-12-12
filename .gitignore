@@ -1,2 +1,8 @@
-.build/
-*.xcodeproj/
+.DS_Store
+/.build
+/.build-ubuntu
+/Packages
+/config.json
+./config/localdev-config.json
+/ssl
+website.xcodeproj/

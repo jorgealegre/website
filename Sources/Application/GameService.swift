@@ -1,11 +1,3 @@
-//
-//  GameService.swift
-//  kitura_test
-//
-//  Created by George Alegre on 8/2/17.
-//
-//
-
 import Foundation
 import KituraWebSocket
 import LoggerAPI

@@ -42,7 +42,7 @@ public class App {
 
     public func run() throws {
         try postInit()
-        Kitura.addFastCGIServer(onPort: cloudEnv.port, with: router)
+        Kitura.addHTTPServer(onPort: cloudEnv.port, with: router)
         Kitura.run()
     }
 }

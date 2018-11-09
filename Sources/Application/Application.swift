@@ -18,7 +18,6 @@ public class App {
 
     public init() throws {
         router.setDefault(templateEngine: StencilTemplateEngine())
-
         router.get("/") { request, response, next in
             try response.render("index", context: [:]).end()
             next()

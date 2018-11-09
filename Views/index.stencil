@@ -8,6 +8,9 @@
 
 {% block content %}
     <h1>George Alegre</h1>
-    <p>Welcome to my personal website. It's still in construction so you wont find anything of much use.</p>
-    <p>I'm planning on making this a very cool webapp. Stay tuned.</p>
+
+    <p>I guess this is better than a 404 or 502.</p>
+
+    <a href="https://github.com/georgealegre" target="_blank">GitHub</a>
+    <a href="https://linkedin.com/in/jorge-alegre" target="_blank">LinkedIn</a>
 {% endblock %}

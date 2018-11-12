@@ -18,7 +18,7 @@ section {
 
 h1, p, a {
     text-align: center;
-    font-family: "Barlow"
+    font-family: 'Barlow', sans-serif;
 }
 
 h1 {

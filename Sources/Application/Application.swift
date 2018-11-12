@@ -18,6 +18,9 @@ public class App {
 
     public init() throws {
         router.setDefault(templateEngine: StencilTemplateEngine())
+
+        router.all("/public", middleware: StaticFileServer())
+
         router.get("/") { request, response, next in
             try response.render("index", context: [:]).end()
             next()
@@ -33,7 +36,7 @@ public class App {
 
     func postInit() throws {
         // Capabilities
-        initializeMetrics(app: self)
+        // initializeMetrics(app: self)
 
         // Endpoints
         initializeHealthRoutes(app: self)

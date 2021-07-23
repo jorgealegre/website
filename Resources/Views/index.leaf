@@ -1,9 +1,12 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-	<title>#get(title)</title>
+    <meta charset="utf-8">
 
-	<link rel="stylesheet" href="/styles/main.css">
+    <title>#(title)</title>
+
+    <link rel="stylesheet" href="/styles/main.css">
+    <link rel="stylesheet" href="/styles/index.css">
 
     <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="/favicon/apple-icon-60x60.png">
@@ -20,9 +23,17 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
     <link rel="manifest" href="/favicon/manifest.json">
 
-    #get(head)
 </head>
 <body>
-    #get(body)
+
+    <section>
+    <h1>Jorge Alegre</h1>
+
+    <p>I guess this is better than a 404.</p>
+
+    <a href="https://github.com/jorgealegre" target="_blank">GitHub</a>
+    <a href="https://linkedin.com/in/jorge-alegre" target="_blank">LinkedIn</a>
+    </section>
+
 </body>
 </html>

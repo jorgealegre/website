@@ -1,21 +1,31 @@
-// swift-tools-version:4.0
+// swift-tools-version:5.2
 import PackageDescription
 
 let package = Package(
     name: "website",
+    platforms: [
+       .macOS(.v10_15)
+    ],
     dependencies: [
-      .package(url: "https://github.com/IBM-Swift/Kitura.git", from: "2.5.0"),
-      .package(url: "https://github.com/IBM-Swift/Kitura-WebSocket.git", from: "2.1.1"),
-      .package(url: "https://github.com/IBM-Swift/HeliumLogger.git", from: "1.7.1"),
-      .package(url: "https://github.com/IBM-Swift/Kitura-StencilTemplateEngine.git", from: "1.10.0"),
-      .package(url: "https://github.com/IBM-Swift/CloudEnvironment.git", from: "7.1.0"),
-      .package(url: "https://github.com/IBM-Swift/Configuration.git", from: "3.0.0"),
-      .package(url: "https://github.com/RuntimeTools/SwiftMetrics.git", from: "2.0.0"),
-      .package(url: "https://github.com/IBM-Swift/Health.git", from: "1.0.0"),
+        .package(url: "https://github.com/vapor/vapor.git", from: "4.0.0")
     ],
     targets: [
-      .target(name: "website", dependencies: [.target(name: "Application"), "Kitura" , "HeliumLogger"]),
-      .target(name: "Application", dependencies: ["Kitura", "Kitura-WebSocket", "Configuration", "CloudEnvironment", "SwiftMetrics", "Health", "KituraStencil"]),
-      .testTarget(name: "ApplicationTests" , dependencies: [.target(name: "Application"), "Kitura", "HeliumLogger"])
+        .target(
+            name: "App",
+            dependencies: [
+                .product(name: "Vapor", package: "vapor")
+            ],
+            swiftSettings: [
+                // Enable better optimizations when building in Release configuration. Despite the use of
+                // the `.unsafeFlags` construct required by SwiftPM, this flag is recommended for Release
+                // builds. See <https://github.com/swift-server/guides#building-for-production> for details.
+                .unsafeFlags(["-cross-module-optimization"], .when(configuration: .release))
+            ]
+        ),
+        .target(name: "Run", dependencies: [.target(name: "App")]),
+        .testTarget(name: "AppTests", dependencies: [
+            .target(name: "App"),
+            .product(name: "XCTVapor", package: "vapor"),
+        ])
     ]
 )

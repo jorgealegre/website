@@ -4,15 +4,15 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hey! I'm Jorge Facundo Alegre, a software engineer specialized in iOS development.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+## Early years
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+I was born in Córdoba, Argentina, but I spent 5 years when I was kid in Los
+Angeles, California. I was lucky enough to spend key years of my childhood
+growing up in a different country, learn English as a native speaker and spend
+a lot of time watching my dad work in construction, something I learned a lot
+from.
 
+# WIP
 
-[jekyll-organization]: https://github.com/jekyll

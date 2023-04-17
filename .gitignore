@@ -1,8 +1,5 @@
-Config/secrets
-Packages
-.build
-xcuserdata
-*.xcodeproj
-DerivedData/
-.DS_Store
-.publish
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor

@@ -1,16 +1,26 @@
-// swift-tools-version:5.2
+// swift-tools-version:5.7
 import PackageDescription
 
 let package = Package(
     name: "website",
     platforms: [
-       .macOS(.v10_15)
+       .macOS(.v12)
+    ],
+    products: [
+        .executable(name: "static", targets: ["Static"])
     ],
     dependencies: [
         .package(url: "https://github.com/vapor/vapor.git", from: "4.0.0"),
-        .package(url: "https://github.com/vapor/leaf.git", from: "4.0.0")
+        .package(url: "https://github.com/vapor/leaf.git", from: "4.0.0"),
+        .package(url: "https://github.com/johnsundell/publish.git", from: "0.8.0")
     ],
     targets: [
+        .executableTarget(
+            name: "Static",
+            dependencies: [
+                .product(name: "Publish", package: "publish")
+            ]
+        ),
         .target(
             name: "App",
             dependencies: [
@@ -24,7 +34,7 @@ let package = Package(
                 .unsafeFlags(["-cross-module-optimization"], .when(configuration: .release))
             ]
         ),
-        .target(name: "Run", dependencies: [.target(name: "App")]),
+//        .executableTarget(name: "Run", dependencies: [.target(name: "App")]),
         .testTarget(name: "AppTests", dependencies: [
             .target(name: "App"),
             .product(name: "XCTVapor", package: "vapor"),

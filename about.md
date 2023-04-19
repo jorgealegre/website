@@ -6,13 +6,15 @@ permalink: /about/
 
 Hey! I'm Jorge Facundo Alegre, a software engineer specialized in iOS development.
 
-## Early years
+* 🇦🇷 I'm a Computer Science student from Córdoba, Argentina.
+* 📚 I studied in FaMAF, UNC.
+* 🧑‍💻 I've been working professionally as a software engineer for the past 7 years.
+* 📱 I started with full stack web development and quickly moved to iOS development.
+* ✈️ I'm also a private pilot in the making, very close to getting my license.
+* ☕️ I'm a big coffee enthusiast.
+* 🍷 Let's not forget about wine.
 
-I was born in Córdoba, Argentina, but I spent 5 years when I was kid in Los
-Angeles, California. I was lucky enough to spend key years of my childhood
-growing up in a different country, learn English as a native speaker and spend
-a lot of time watching my dad work in construction, something I learned a lot
-from.
+## Contact
 
-# WIP
+You can find my email and social links at the bottom of each page in this site.
 
